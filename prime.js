@@ -5,4 +5,6 @@ for(let i=0;i<=num;i++){
         count++
     }
 }
-(count==2)? console.log("yes,it is prime"): console.log("No,it is not prime")
+let isPrime=count==2 ? "yes,it is prime": "No,it is not prime"
+
+console.log(isPrime)
